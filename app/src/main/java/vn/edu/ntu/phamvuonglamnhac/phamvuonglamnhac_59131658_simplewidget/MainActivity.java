@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         String NgaySinh=edtNgaySinh.getText().toString();
         String SoThich=edtSoThich.getText().toString();
         String laychuoi="Sở thích:";
+        //-------------------------------------------------------
         switch (rdgGioiTinh.getCheckedRadioButtonId())
         {
             case R.id.rbNam:
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 gt+="Nữ"+"\n";
                 break;
         }
+        //--------------------------------------------------------
        if(checkboxPhim.isChecked()){
             laychuoi+=checkboxPhim.getText() +";";
        }

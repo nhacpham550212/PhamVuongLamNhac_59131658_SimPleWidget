@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:theme="@style/red"
         android:hint="Nhập tên bạn vào đây"
         android:inputType="textPersonName"
         android:text="" />
@@ -34,9 +35,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nhập ngày sinh bạn vào đây"
-        android:inputType="textPersonName"
-        android:text="" />
+        android:theme="@style/red"
+        android:hint="Nhập ngày sinh vào đây"
+        android:inputType="date" />
 
     <TextView
         android:id="@+id/textView3"
@@ -56,6 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:theme="@style/red"
             android:text="Nam" />
 
         <RadioButton
@@ -76,18 +78,21 @@
         android:id="@+id/checkboxPhim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:theme="@style/red"
         android:text="Xem Phim" />
 
     <CheckBox
         android:id="@+id/checkboxNhac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:theme="@style/red"
         android:text="Nghe Nhạc" />
 
     <CheckBox
         android:id="@+id/checkboxCafe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:theme="@style/red"
         android:text="Đi cafe với bạn bè" />
 
     <CheckBox
@@ -100,6 +105,7 @@
         android:id="@+id/checkboxBep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:theme="@style/red"
         android:text="Vào bếp nấu ăn" />
 
     <TextView
@@ -115,6 +121,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Nhập sở thích khác"
+        android:theme="@style/red"
         android:inputType="textPersonName"
         android:text="" />
 
